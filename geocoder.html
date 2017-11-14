@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <script src="geocoder.js"></script>
+    <link rel="stylesheet" href="geocoder.css">
+</head>
+
+<body>
+    <div id="floating-panel">
+        <input id="address" type="textbox" value="Sydney, NSW">
+        <input id="submit" type="button" value="Geocode">
+    </div>
+    <div id="map"></div>
+
+</body>
+
+</html>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=APIKEYGOESHERE&callback=initMap"></script>
